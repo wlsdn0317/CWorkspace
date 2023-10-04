@@ -6,18 +6,16 @@ int main(){
     scanf("%d", &t);
     while(t>0){
         int r;
-        char c[20] = {0,};
+        char c[21] = {0,};
         scanf("%d %s",&r,c);
-
-    
-            for(int i = 0;i<20;i++){
-                if(c[i]!=0){
-                    for(int j = 0;j<r;j++){
-                        printf("%c",c[i]);
-                    }
+        for(int i = 0;i<20;i++){
+            if(c[i]!=0){
+               for(int j = 0;j<r;j++){
+                    printf("%c",c[i]);
                 }
             }
-   
+        }
+        printf("\n");
         t--;
     }
     return 0;
