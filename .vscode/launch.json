@@ -8,6 +8,14 @@
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "args": [],
       "cwd": "${fileDirname}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/minjin-u/Desktop/진우/스크립트/CWorkspace",
+      "program": "/Users/minjin-u/Desktop/진우/스크립트/CWorkspace/build/Debug/outDebug"
     }
   ]
 }
