@@ -7,10 +7,10 @@ int main(){
 
     while (n>0){
         char s[51] = {0,};
-        int  p =0;
-        char g[3] = {0,};
+        float  p =0;
+        char g[3] = {0,}; 
 
-        scanf("%s %d %s",s,&p,g);
+        scanf("%s %f %s",s,&p,g);
 
         if(g[0] != 'P'){
             point += p;
